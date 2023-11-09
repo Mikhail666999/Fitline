@@ -1,0 +1,194 @@
+body {
+	display: grid;
+	justify-content: center;
+
+	background: linear-gradient( to right, rgb(240,243,245), rgb(230,235,240) );
+}
+
+label {
+	font-family: Manrope-Bold;
+}
+
+button {
+	font-family: Manrope-Bold;
+	font-size: 2.5vh;
+	border-radius: 1vw;
+	border: .4vw double rgb(229, 237, 248, 1);
+	color: rgba(229, 237, 248, 1);
+	background: rgba(53, 134, 255, 1);
+	cursor: pointer;
+}
+
+
+
+
+#one {
+/*	border: 5px solid rgba(120, 255, 117, 1);*/
+	display: flex;
+	margin-top: 30vh;
+    margin-left: 6vw;
+}
+
+#one .text {
+	display: grid;
+
+	right: 0;
+	left: 100%;
+
+	width: 50%;
+/*	height: 100%;*/
+
+	flex-direction: column;
+	justify-content: end;
+	align-content: center;
+	
+	color: #07172e;
+	font-size: 1.2vw;
+
+	margin-top: -9vh;
+}
+
+#one .text > .main {
+	min-width: 30%;
+	line-height: 10vh;
+	font-size: 8vh;
+}
+
+#one .text > .nomain {
+	text-align: left;
+	min-width: 80%;
+	max-width: 90%;
+	width: 96%;
+	margin-top: 3vh;
+	font-size: 2.5vh;
+}
+
+#one .text > .button {
+	font-size: 2.5vh;
+	width: 19vw;
+	height: 10vh;
+
+	margin-top: 6vh;
+}
+
+#one .image {
+	width: 45vw;
+	height: 79vh;
+	background: url("../img/1.png") no-repeat;
+	background-size: contain;
+}
+
+
+
+
+#two {
+	margin-top: 20vh;
+	
+	display: grid;
+	justify-content: center;
+}
+
+#two .text {
+	color: hsl(215,73.6%,10.4%);
+	text-align: center;
+	font-size: 6vh;
+}
+
+#two .course {
+	display: flex;
+
+	grid-column-gap: 3%;
+	justify-content: center;
+	
+	margin-top: 10vh;
+}
+
+#two .course > .one,
+#two .course > .two, 
+#two .course > .three {
+	display: grid;
+
+	justify-content: center;
+}
+
+#two .course > .one > .figure, 
+#two .course > .two > .figure, 
+#two .course > .three > .figure {
+	display: grid;
+
+	justify-content: center;
+	align-content: end;
+
+	width: 28vw;
+	height: 40vh;
+
+	border-radius: .9vw;
+	background-color: #f1f4f8;
+}
+
+#two .course > .one > .figure > .img-text, 
+#two .course > .two > .figure > .img-text, 
+#two .course > .three > .figure > .img-text {
+	display: grid;
+
+	justify-content: center;
+	align-content: center;
+
+	width: 100%;
+	height: 100%;
+}
+
+#two .course > .one > .figure > .img-text > .image,
+#two .course > .two > .figure > .img-text > .image,
+#two .course > .three > .figure > .img-text > .image {
+	height: 31vh;
+
+	min-height: 100%;
+	object-fit: contain;
+}
+
+#two .course > .one> .figure > .img-text > .text,
+#two .course > .two> .figure > .img-text > .text,
+#two .course > .three> .figure > .img-text > .text {
+	font-family: Manrope-Bold;
+	font-size: 4vh;
+
+	text-align: center;
+
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+#two .but {
+	display: grid;
+	justify-content: center;
+}
+
+#two .but > .button {
+	margin-top: 8vh;
+
+	width: 19vw;
+	height: 10vh;
+}
+
+
+
+#three {
+	margin-top: 100vh;
+}
+
+
+
+
+@font-face {
+	font-family: Manrope-Bold;
+	src: url("fonts/Manrope-Bold.ttf");
+}
+@font-face {
+	font-family: Manrope-Regular;
+	src: url("fonts/Manrope-Regular.ttf");
+}
+@font-face {
+	font-family: Manrope-SemiBold;
+	src: url("fonts/Manrope-SemiBold.ttf");
+}
